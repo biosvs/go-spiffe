@@ -10,7 +10,7 @@ import (
 	"github.com/spiffe/go-spiffe/spiffetest"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/test/grpc_testing"
+	"google.golang.org/grpc/interop/grpc_testing"
 )
 
 func TestTLSPeer(t *testing.T) {
